@@ -1,23 +1,24 @@
 ﻿namespace MauiApp1;
 
+using DIExplanation;
+
 public partial class MainPage : ContentPage
 {
+    private readonly IShoppingCart? _shoppingCart;
     int count = 0;
 
-    public MainPage()
+    public MainPage() : this(null)
+    {
+    }
+
+    public MainPage(IShoppingCart? shoppingCart)
     {
         InitializeComponent();
+        _shoppingCart = shoppingCart;
+        BindingContext = this;
     }
 
-    private void OnCounterClicked(object? sender, EventArgs e)
-    {
-        count++;
+    public IEnumerable<OrderLine> LineItems => _shoppingCart?.GetAll() ?? Enumerable.Empty<OrderLine>();
 
-        if (count == 1)
-            CounterBtn.Text = $"Clicked {count} time";
-        else
-            CounterBtn.Text = $"Clicked {count} times";
-
-        SemanticScreenReader.Announce(CounterBtn.Text);
-    }
+    
 }

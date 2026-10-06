@@ -26,9 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MauiApp1/ShoppingCardSeeder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MauiApp1/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/Platforms/MacCatalyst/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/Platforms/MacCatalyst/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/Platforms/iOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/Platforms/iOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiApp1/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiApp1/AppShell.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/AppShell.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiApp1/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiApp1/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiApp1/MauiApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MauiApp1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MauiApp1/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MauiProgram.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +72,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/819456c51dfa1765df1371c68b896d46595b389ff2ea569e458ad612bb2020/ServiceProviderEngineScope.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e769c44533aabde1f69a82956c6436e6daa615f4ae54fbdab4ac1fbfa1a39d1/CallSiteValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e77fd796ad9505ec3a4575d853ba23a523a417a1b7857aea238ed6f6a15de/AntiforgeryApplicationBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e97eeac1454167a6e970ab48ab55f3e712d20bbe138b239e8679c6d456248a/ServiceProviderServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MauiApp1/Platforms/Android/MainApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MauiApp1/Platforms/MacCatalyst/AppDelegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MauiApp1/Platforms/MacCatalyst/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApi/Controllers/ShoppingCartController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApi/Mappers/OrderLineMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApi/Models/OrderLineDTO.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,61 +96,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.493829786851092" />
-      <entry key="MS500" value="4.141669801652591" />
-      <entry key="S2" value="11.80245954646803" />
-      <entry key="S5" value="25.697645378595144" />
-      <entry key="S10" value="41.111260293458315" />
-      <entry key="S30" value="62.44754880096642" />
-      <entry key="S60" value="70.49941517938773" />
-      <entry key="M2" value="76.64410582539028" />
-      <entry key="M5" value="90.56117864133334" />
-      <entry key="M10" value="107.46493071011182" />
-      <entry key="M15" value="125.20565957093535" />
-      <entry key="M30" value="187.53250577503456" />
-      <entry key="H1" value="313.872082148205" />
-      <entry key="H2" value="507.7831641154686" />
-      <entry key="H4" value="707.0958700867775" />
-      <entry key="D1" value="982.1754045067805" />
-      <entry key="W1" value="1044.1524810154344" />
+      <entry key="MS100" value="1.4042596905179434" />
+      <entry key="MS500" value="3.941985269458096" />
+      <entry key="S2" value="7.952931005374781" />
+      <entry key="S5" value="12.764648726843769" />
+      <entry key="S10" value="23.10828154214978" />
+      <entry key="S30" value="45.353623396903814" />
+      <entry key="S60" value="57.07039753679106" />
+      <entry key="M2" value="67.53656698969924" />
+      <entry key="M5" value="84.78273336487169" />
+      <entry key="M10" value="111.76661144121869" />
+      <entry key="M15" value="136.90678828512034" />
+      <entry key="M30" value="207.95030933894557" />
+      <entry key="H1" value="340.3932874518998" />
+      <entry key="H2" value="544.6617025909917" />
+      <entry key="H4" value="760.5976257261275" />
+      <entry key="D1" value="1067.3567508024198" />
+      <entry key="W1" value="1137.6555996819777" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="5.960905231082025E-249" />
-      <entry key="S5" value="8.610048942360077E-100" />
-      <entry key="S10" value="4.903470499126265E-50" />
-      <entry key="S30" value="7.543835985410269E-17" />
-      <entry key="S60" value="1.507342914810588E-8" />
-      <entry key="M2" value="2.2206982665866964E-4" />
-      <entry key="M5" value="0.08348936917373773" />
-      <entry key="M10" value="0.7710120634387055" />
-      <entry key="M15" value="1.8461167325976786" />
-      <entry key="M30" value="5.409968112720532" />
-      <entry key="H1" value="12.834574670500404" />
-      <entry key="H2" value="25.443936079715535" />
-      <entry key="H4" value="39.17086767917764" />
-      <entry key="D1" value="58.74119684020644" />
-      <entry key="W1" value="63.215041716296966" />
+      <entry key="MS100" value="5.147557589467988E-85" />
+      <entry key="MS500" value="1.3877787807814448E-17" />
+      <entry key="S2" value="6.103515625000233E-5" />
+      <entry key="S5" value="0.020617476449965706" />
+      <entry key="S10" value="0.14437583606800528" />
+      <entry key="S30" value="0.7817163583497923" />
+      <entry key="S60" value="1.9451128828165432" />
+      <entry key="M2" value="3.808990853029067" />
+      <entry key="M5" value="6.4818863871520085" />
+      <entry key="M10" value="8.157481530572365" />
+      <entry key="M15" value="9.289457958195607" />
+      <entry key="M30" value="12.60499519387303" />
+      <entry key="H1" value="19.71903286794857" />
+      <entry key="H2" value="32.37956116283151" />
+      <entry key="H4" value="46.79771219571079" />
+      <entry key="D1" value="68.14183337935172" />
+      <entry key="W1" value="73.12268953151816" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4451014410716938" />
-      <entry key="MS500" value="4.106062301345441" />
-      <entry key="S2" value="11.776071720440289" />
-      <entry key="S5" value="25.675333012875626" />
-      <entry key="S10" value="41.093434277366796" />
-      <entry key="S30" value="62.43843417073504" />
-      <entry key="S60" value="70.49423940781718" />
-      <entry key="M2" value="76.64137984005416" />
-      <entry key="M5" value="90.64205897724628" />
-      <entry key="M10" value="108.23016232366001" />
-      <entry key="M15" value="127.0430807752385" />
-      <entry key="M30" value="192.9297897683377" />
-      <entry key="H1" value="326.69197750978634" />
-      <entry key="H2" value="533.2130644482548" />
-      <entry key="H4" value="746.2561558133061" />
-      <entry key="D1" value="1040.913997945369" />
-      <entry key="W1" value="1107.3671234612589" />
+      <entry key="MS100" value="1.3230243928909204" />
+      <entry key="MS500" value="3.900772561327742" />
+      <entry key="S2" value="7.932508887648723" />
+      <entry key="S5" value="12.76809000525281" />
+      <entry key="S10" value="23.22628671778123" />
+      <entry key="S30" value="46.09451053400715" />
+      <entry key="S60" value="58.95808347615771" />
+      <entry key="M2" value="71.28260666977418" />
+      <entry key="M5" value="91.21835223732539" />
+      <entry key="M10" value="119.89367911410952" />
+      <entry key="M15" value="146.1719285982477" />
+      <entry key="M30" value="220.53605736525034" />
+      <entry key="H1" value="360.0948286284428" />
+      <entry key="H2" value="577.0257794004496" />
+      <entry key="H4" value="807.3838385954754" />
+      <entry key="D1" value="1135.4957490053173" />
+      <entry key="W1" value="1210.7778536538601" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -152,40 +162,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.BlazorApp: http.executor": "Debug",
-    ".NET Launch Settings Profile.WebApi: http.executor": "Debug",
-    ".NET Project.DIExplanation.executor": "Run",
-    "6f4c2e24-b04b-433f-8191-7ea0bb600652.executor": "Debug",
-    "Android.MauiApp1.executor": "Debug",
-    "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSConnectedDeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: iOS App": "iPhone van Johan",
-    "DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider": "Device",
-    "HTTP Request.WebApi | #1.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "add-maui-app",
-    "iOS.iOS App.executor": "Run",
-    "junie.onboarding.icon.badge.shown": "true",
-    "macOS.MACApp.executor": "Debug",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rider.unittesting.toolwindow.stripe.button.shown": "true",
-    "settings.editor.selected.configurable": "AndroidSettingsPageId",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.BlazorApp: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.WebApi: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.DIExplanation.executor&quot;: &quot;Run&quot;,
+    &quot;6f4c2e24-b04b-433f-8191-7ea0bb600652.executor&quot;: &quot;Debug&quot;,
+    &quot;Android.MauiApp1.executor&quot;: &quot;Debug&quot;,
+    &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSConnectedDeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: iOS App&quot;: &quot;iPhone van Johan&quot;,
+    &quot;DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider&quot;: &quot;Device&quot;,
+    &quot;HTTP Request.WebApi | #1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;add-maui-app&quot;,
+    &quot;iOS.iOS App.executor&quot;: &quot;Run&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;macOS.MACApp.executor&quot;: &quot;Debug&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.unittesting.toolwindow.stripe.button.shown&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSettingsPageId&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="macOS.MACApp">
     <configuration name="BlazorApp.Client" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -437,7 +447,8 @@
     <MESSAGE value="Fix dependency injection for `ShoppingCardSeeder` in BlazorApp `Program.cs` by resolving it within a scoped service provider. Adjust `IShoppingCart` registration to singleton." />
     <MESSAGE value="Fix scoped `HttpClient` registration in BlazorApp `Program.cs` to use `NavigationManager.BaseUri` as `BaseAddress`. Adjust services for consistency." />
     <MESSAGE value="Add raw assets directory and Android project configuration files for Maui project setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add raw assets directory and Android project configuration files for Maui project setup" />
+    <MESSAGE value="Add scene delegates and update Info.plist files for iOS and MacCatalyst platforms in Maui project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scene delegates and update Info.plist files for iOS and MacCatalyst platforms in Maui project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,13 +4,17 @@ namespace MauiApp1;
 
 public partial class App : Application
 {
-    public App()
+    private readonly ShoppingCardSeeder _shoppingCardSeeder;
+
+    public App(ShoppingCardSeeder shoppingCardSeeder)
     {
+        _shoppingCardSeeder = shoppingCardSeeder;
         InitializeComponent();
     }
 
     protected override Window CreateWindow(IActivationState? activationState)
     {
+        _shoppingCardSeeder.Seed();
         return new Window(new AppShell());
     }
 }

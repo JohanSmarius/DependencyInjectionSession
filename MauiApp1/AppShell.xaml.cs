@@ -1,4 +1,6 @@
-﻿namespace MauiApp1;
+﻿using DIExplanation;
+
+namespace MauiApp1;
 
 public partial class AppShell : Shell
 {

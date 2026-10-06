@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using DIExplanation;
+using Microsoft.Extensions.Logging;
 
 namespace MauiApp1;
 
@@ -14,6 +15,12 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
+
+        builder.Services.AddSingleton<ShoppingCardSeeder>();
+        builder.Services.AddSingleton<IShoppingCart, ShoppingCart>();
+        builder.Services.AddTransient<IUserRepository, UserRepository>();
+        builder.Services.AddTransient<IDiscountCalculator, DiscountCalculator>();
+        builder.Services.AddTransient<MainPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();

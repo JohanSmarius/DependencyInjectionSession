@@ -15,6 +15,11 @@ public class ShoppingCart : IShoppingCart
         orderLines.Add(orderLine);
     }
 
+    public IEnumerable<OrderLine> GetAll()
+    {
+        return orderLines;
+    }
+
     public decimal TotalPrice()
     {
         var total = orderLines.Sum(x => x.LinePrice);

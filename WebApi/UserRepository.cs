@@ -1,4 +1,6 @@
-namespace DIExplanation;
+using DIExplanation;
+
+namespace WebApi;
 
 public class UserRepository : IUserRepository
 {

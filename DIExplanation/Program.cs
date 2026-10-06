@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using DIExplanation;
+using WebApi;
 
 var builder = Host.CreateApplicationBuilder(args);
 

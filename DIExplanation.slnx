@@ -2,4 +2,5 @@
   <Project Path="DIExplanation/DIExplanation.csproj" />
   <Project Path="DITests/DITests.csproj" />
   <Project Path="SharedLibrary/SharedLibrary.csproj" />
+  <Project Path="WebApi\WebApi.csproj" />
 </Solution>

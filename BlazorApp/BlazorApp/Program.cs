@@ -16,10 +16,8 @@ builder.Services.AddHttpClient();
 builder.Services.AddScoped<ShoppingCardSeeder>();
 
 builder.Services.AddTransient<IUserRepository, UserRepository>();
-builder.Services.AddTransient<IShoppingCart, DI.ShoppingCart>();
+builder.Services.AddSingleton<IShoppingCart, DI.ShoppingCart>();
 builder.Services.AddTransient<IDiscountCalculator, DiscountCalculator>();
-
-
 
 var app = builder.Build();
 
@@ -51,6 +49,9 @@ app.MapGet("/api/shoppingcart", (IShoppingCart shoppingCart) =>
     return shoppingCart.GetAll();
 });
 
-app.Services.GetRequiredService<ShoppingCardSeeder>().Seed();
+using (var scope = app.Services.CreateScope())
+{
+    scope.ServiceProvider.GetRequiredService<ShoppingCardSeeder>().Seed();
+}
 
 app.Run();

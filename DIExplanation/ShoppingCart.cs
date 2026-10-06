@@ -1,6 +1,6 @@
 namespace DIExplanation;
 
-public class ShoppingCart
+public class ShoppingCart : IShoppingCart
 {
     private readonly IDiscountCalculator _discountCalculator;
     private List<OrderLine> orderLines = [];

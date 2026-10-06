@@ -14,12 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DIExplanation/IUserRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIExplanation/IShoppingCart.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation/DIExplanation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/DIExplanation.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DIExplanation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ctor-injection-to-main" />
+        <entry key="$PROJECT_DIR$" value="add-extra-repo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +56,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/IDiscountCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DIExplanation/IShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,61 +72,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000001208733893" />
-      <entry key="MS500" value="1.0413505670925896" />
-      <entry key="S2" value="1.4856959617249972" />
-      <entry key="S5" value="1.9885912498532186" />
-      <entry key="S10" value="2.3983175053604953" />
-      <entry key="S30" value="4.021900666417926" />
-      <entry key="S60" value="8.641358869897154" />
-      <entry key="M2" value="21.26698726472982" />
-      <entry key="M5" value="57.35690248488445" />
-      <entry key="M10" value="92.05510356615154" />
-      <entry key="M15" value="112.46587662355486" />
-      <entry key="M30" value="147.56697351567024" />
-      <entry key="H1" value="178.6888324894962" />
-      <entry key="H2" value="200.93445392770118" />
-      <entry key="H4" value="214.4676114750661" />
-      <entry key="D1" value="227.25775559412386" />
-      <entry key="W1" value="229.6042830465414" />
+      <entry key="MS100" value="1.0000236145995152" />
+      <entry key="MS500" value="1.133502968480232" />
+      <entry key="S2" value="2.1396451127321283" />
+      <entry key="S5" value="3.2861146222849125" />
+      <entry key="S10" value="4.3117034992293775" />
+      <entry key="S30" value="7.968538972485753" />
+      <entry key="S60" value="12.25789024954097" />
+      <entry key="M2" value="23.268684846343536" />
+      <entry key="M5" value="63.645761754368" />
+      <entry key="M10" value="116.52350020965652" />
+      <entry key="M15" value="151.71537953495255" />
+      <entry key="M30" value="211.251087771373" />
+      <entry key="H1" value="261.6832886109716" />
+      <entry key="H2" value="297.0432264128119" />
+      <entry key="H4" value="318.44928014673366" />
+      <entry key="D1" value="338.6645317864824" />
+      <entry key="W1" value="342.37431607167514" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.986192127085263E-279" />
-      <entry key="MS500" value="2.185515051178217E-56" />
-      <entry key="S2" value="1.2158736609452247E-14" />
-      <entry key="S5" value="2.716813073501237E-6" />
-      <entry key="S10" value="0.0016895176032952603" />
-      <entry key="S30" value="0.19198769926279913" />
-      <entry key="S60" value="0.9420610756713493" />
-      <entry key="M2" value="2.8187470578465037" />
-      <entry key="M5" value="6.7774633821437" />
-      <entry key="M10" value="9.673031948036098" />
-      <entry key="M15" value="11.202501592266703" />
-      <entry key="M30" value="13.783142031678963" />
-      <entry key="H1" value="16.103102105624497" />
-      <entry key="H2" value="17.78329985249473" />
-      <entry key="H4" value="18.812759719639224" />
-      <entry key="D1" value="19.789988800630788" />
-      <entry key="W1" value="19.9696843868197" />
+      <entry key="MS100" value="3.7574947655620785E-31" />
+      <entry key="MS500" value="8.553177764778779E-7" />
+      <entry key="S2" value="0.043603499298497474" />
+      <entry key="S5" value="0.4307736692978788" />
+      <entry key="S10" value="1.0451658654658424" />
+      <entry key="S30" value="2.7799607266414537" />
+      <entry key="S60" value="4.1894551564420714" />
+      <entry key="M2" value="6.023729100901662" />
+      <entry key="M5" value="10.391948013655304" />
+      <entry key="M10" value="15.371222997245777" />
+      <entry key="M15" value="18.45794868878041" />
+      <entry key="M30" value="23.427789757152564" />
+      <entry key="H1" value="27.508931044123425" />
+      <entry key="H2" value="30.33926955722519" />
+      <entry key="H4" value="32.0461349440845" />
+      <entry key="D1" value="33.655187349913795" />
+      <entry key="W1" value="33.95024262507498" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0438889023668124" />
-      <entry key="MS500" value="0.5351564633046653" />
-      <entry key="S2" value="0.9471146526351598" />
-      <entry key="S5" value="1.518704526954487" />
-      <entry key="S10" value="2.0764199370489838" />
-      <entry key="S30" value="4.033316319493929" />
-      <entry key="S60" value="9.436000112501453" />
-      <entry key="M2" value="23.966658498723064" />
-      <entry key="M5" value="64.05582446988954" />
-      <entry key="M10" value="101.67738201081879" />
-      <entry key="M15" value="123.62978872593224" />
-      <entry key="M30" value="161.3258513700905" />
-      <entry key="H1" value="194.77720485708642" />
-      <entry key="H2" value="218.7093886286525" />
-      <entry key="H4" value="233.27587411487224" />
-      <entry key="D1" value="247.0469444034963" />
-      <entry key="W1" value="249.5738518134869" />
+      <entry key="MS100" value="2.445830635736861E-4" />
+      <entry key="MS500" value="0.28225143393035884" />
+      <entry key="S2" value="1.5401731879045482" />
+      <entry key="S5" value="3.210915745191854" />
+      <entry key="S10" value="4.970365299774363" />
+      <entry key="S30" value="10.48465934861576" />
+      <entry key="S60" value="16.255370491385538" />
+      <entry key="M2" value="29.148488323949373" />
+      <entry key="M5" value="73.92701199683044" />
+      <entry key="M10" value="131.81062542697532" />
+      <entry key="M15" value="170.10569155784313" />
+      <entry key="M30" value="234.6353796645121" />
+      <entry key="H1" value="289.16619369260053" />
+      <entry key="H2" value="327.367922944913" />
+      <entry key="H4" value="350.4876454103646" />
+      <entry key="D1" value="372.31834701457495" />
+      <entry key="W1" value="376.3243606403345" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -139,7 +140,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.DIExplanation.executor": "Debug",
+    ".NET Project.DIExplanation.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -150,7 +151,7 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "add-extra-repo",
+    "git-widget-placeholder": "add-container",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -205,7 +206,8 @@
     <MESSAGE value="Add AddOrderLine method to ShoppingCartViewModel" />
     <MESSAGE value="Methode injection" />
     <MESSAGE value="Refactor ShoppingCartViewModel to use constructor injection for DiscountCalculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor ShoppingCartViewModel to use constructor injection for DiscountCalculator" />
+    <MESSAGE value="Add UserRepository for enhanced dependency injection in DiscountCalculator and Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UserRepository for enhanced dependency injection in DiscountCalculator and Program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,13 +226,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DIExplanation/Program.cs</url>
-          <line>11</line>
+          <line>21</line>
           <properties documentPath="$PROJECT_DIR$/DIExplanation/Program.cs" containingFunctionPresentation="">
             <startOffsets>
-              <option value="410" />
+              <option value="895" />
             </startOffsets>
             <endOffsets>
-              <option value="453" />
+              <option value="938" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />

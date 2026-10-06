@@ -2,13 +2,11 @@ namespace DIExplanation;
 
 public class ShoppingCartViewModel
 {
-    private readonly IDiscountCalculator _discountCalculator;
-    private readonly ShoppingCart _shoppingCart;
+    private readonly IShoppingCart _shoppingCart;
     
-    public ShoppingCartViewModel(IDiscountCalculator discountCalculator)
+    public ShoppingCartViewModel(IDiscountCalculator discountCalculator, IShoppingCart shoppingCart)
     {
-        _discountCalculator = discountCalculator;
-        _shoppingCart = new ShoppingCart(discountCalculator);
+        _shoppingCart = shoppingCart;
     }
     
     public decimal TotalPrice => _shoppingCart.TotalPrice();

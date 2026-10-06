@@ -25,7 +25,6 @@
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -391,7 +390,8 @@
     <MESSAGE value="Move shared logic to a new `SharedLibrary` project and update solution/project references accordingly" />
     <MESSAGE value="Set up `WebApi` project with DI integration, controllers, DTOs, and shared library dependencies" />
     <MESSAGE value="Set up `BlazorApp` project with initial components, layouts, styles, app settings, and project structure dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up `BlazorApp` project with initial components, layouts, styles, app settings, and project structure dependencies." />
+    <MESSAGE value="Fix dependency injection for `ShoppingCardSeeder` in BlazorApp `Program.cs` by resolving it within a scoped service provider. Adjust `IShoppingCart` registration to singleton." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix dependency injection for `ShoppingCardSeeder` in BlazorApp `Program.cs` by resolving it within a scoped service provider. Adjust `IShoppingCart` registration to singleton." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -410,13 +410,13 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs</url>
-          <line>53</line>
+          <line>58</line>
           <properties documentPath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1499" />
+              <option value="1695" />
             </startOffsets>
             <endOffsets>
-              <option value="1569" />
+              <option value="1765" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
@@ -436,13 +436,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs</url>
-          <line>48</line>
+          <line>53</line>
           <properties documentPath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1411" />
+              <option value="1607" />
             </startOffsets>
             <endOffsets>
-              <option value="1440" />
+              <option value="1636" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />

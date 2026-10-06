@@ -14,8 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DIExplanation/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIExplanation/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DIExplanation/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DIExplanation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="add-depedency-injection" />
+        <entry key="$PROJECT_DIR$" value="ctor-injection-to-main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,10 +56,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/IDiscountCalculator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DIExplanation/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DIExplanation/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DIExplanation/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DIExplanation/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DITests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -64,61 +71,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000091473438" />
-      <entry key="S2" value="1.0097799648180341" />
-      <entry key="S5" value="1.159883652455611" />
-      <entry key="S10" value="1.4727390702154255" />
-      <entry key="S30" value="3.142592359668878" />
-      <entry key="S60" value="8.335738892402308" />
-      <entry key="M2" value="22.853044697693292" />
-      <entry key="M5" value="55.26425753470471" />
-      <entry key="M10" value="80.42533926093869" />
-      <entry key="M15" value="95.17511264543023" />
-      <entry key="M30" value="122.48405572892933" />
-      <entry key="H1" value="148.0366589503663" />
-      <entry key="H2" value="166.60861640553517" />
-      <entry key="H4" value="177.95716220256816" />
-      <entry key="D1" value="188.69671116726042" />
-      <entry key="W1" value="190.6676208821953" />
+      <entry key="MS100" value="1.0000001208733893" />
+      <entry key="MS500" value="1.0413505670925896" />
+      <entry key="S2" value="1.4856959617249972" />
+      <entry key="S5" value="1.9885912498532186" />
+      <entry key="S10" value="2.3983175053604953" />
+      <entry key="S30" value="4.021900666417926" />
+      <entry key="S60" value="8.641358869897154" />
+      <entry key="M2" value="21.26698726472982" />
+      <entry key="M5" value="57.35690248488445" />
+      <entry key="M10" value="92.05510356615154" />
+      <entry key="M15" value="112.46587662355486" />
+      <entry key="M30" value="147.56697351567024" />
+      <entry key="H1" value="178.6888324894962" />
+      <entry key="H2" value="200.93445392770118" />
+      <entry key="H4" value="214.4676114750661" />
+      <entry key="D1" value="227.25775559412386" />
+      <entry key="W1" value="229.6042830465414" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.6841163891845915E-167" />
-      <entry key="MS500" value="4.479419929140726E-34" />
-      <entry key="S2" value="7.124844472342782E-9" />
-      <entry key="S5" value="0.0010167616659007665" />
-      <entry key="S10" value="0.0571953081692832" />
-      <entry key="S30" value="1.0609264655297397" />
-      <entry key="S60" value="2.628344081137646" />
-      <entry key="M2" value="4.618429677862823" />
-      <entry key="M5" value="7.047526351441006" />
-      <entry key="M10" value="8.443188134405519" />
-      <entry key="M15" value="9.279659599756611" />
-      <entry key="M30" value="11.032565120202529" />
-      <entry key="H1" value="12.828171300845625" />
-      <entry key="H2" value="14.182890232136142" />
-      <entry key="H4" value="15.023981701317274" />
-      <entry key="D1" value="15.827005620818342" />
-      <entry key="W1" value="15.97502019294215" />
+      <entry key="MS100" value="4.986192127085263E-279" />
+      <entry key="MS500" value="2.185515051178217E-56" />
+      <entry key="S2" value="1.2158736609452247E-14" />
+      <entry key="S5" value="2.716813073501237E-6" />
+      <entry key="S10" value="0.0016895176032952603" />
+      <entry key="S30" value="0.19198769926279913" />
+      <entry key="S60" value="0.9420610756713493" />
+      <entry key="M2" value="2.8187470578465037" />
+      <entry key="M5" value="6.7774633821437" />
+      <entry key="M10" value="9.673031948036098" />
+      <entry key="M15" value="11.202501592266703" />
+      <entry key="M30" value="13.783142031678963" />
+      <entry key="H1" value="16.103102105624497" />
+      <entry key="H2" value="17.78329985249473" />
+      <entry key="H4" value="18.812759719639224" />
+      <entry key="D1" value="19.789988800630788" />
+      <entry key="W1" value="19.9696843868197" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.916775146761324E-4" />
-      <entry key="MS500" value="0.21793956333607503" />
-      <entry key="S2" value="0.690922083129354" />
-      <entry key="S5" value="1.0044884528532814" />
-      <entry key="S10" value="1.4296564945895776" />
-      <entry key="S30" value="4.1240978100989905" />
-      <entry key="S60" value="10.888833642581076" />
-      <entry key="M2" value="27.407536338180304" />
-      <entry key="M5" value="62.269963725369124" />
-      <entry key="M10" value="88.84158614785461" />
-      <entry key="M15" value="104.43360728194989" />
-      <entry key="M30" value="133.5019758338925" />
-      <entry key="H1" value="160.8552365748815" />
-      <entry key="H2" value="180.7858274569207" />
-      <entry key="H4" value="192.97802717416886" />
-      <entry key="D1" value="204.52315295250523" />
-      <entry key="W1" value="206.64255935495163" />
+      <entry key="MS100" value="0.0438889023668124" />
+      <entry key="MS500" value="0.5351564633046653" />
+      <entry key="S2" value="0.9471146526351598" />
+      <entry key="S5" value="1.518704526954487" />
+      <entry key="S10" value="2.0764199370489838" />
+      <entry key="S30" value="4.033316319493929" />
+      <entry key="S60" value="9.436000112501453" />
+      <entry key="M2" value="23.966658498723064" />
+      <entry key="M5" value="64.05582446988954" />
+      <entry key="M10" value="101.67738201081879" />
+      <entry key="M15" value="123.62978872593224" />
+      <entry key="M30" value="161.3258513700905" />
+      <entry key="H1" value="194.77720485708642" />
+      <entry key="H2" value="218.7093886286525" />
+      <entry key="H4" value="233.27587411487224" />
+      <entry key="D1" value="247.0469444034963" />
+      <entry key="W1" value="249.5738518134869" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -130,30 +137,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.DIExplanation.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ctor-injection&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rider.unittesting.toolwindow.stripe.button.shown&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.DIExplanation.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "add-extra-repo",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rider.unittesting.toolwindow.stripe.button.shown": "true",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DIExplanation" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -197,7 +204,8 @@
     <MESSAGE value="Initial version" />
     <MESSAGE value="Add AddOrderLine method to ShoppingCartViewModel" />
     <MESSAGE value="Methode injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methode injection" />
+    <MESSAGE value="Refactor ShoppingCartViewModel to use constructor injection for DiscountCalculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor ShoppingCartViewModel to use constructor injection for DiscountCalculator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -214,6 +222,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DIExplanation/Program.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/DIExplanation/Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="410" />
+            </startOffsets>
+            <endOffsets>
+              <option value="453" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

@@ -13,11 +13,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DITests/DITests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DITests/DITests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DITests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DITests/ShoppingCartViewModelTests.cs" afterDir="false" />
-    </list>
+    <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +202,8 @@
     <MESSAGE value="Refactor ShoppingCartViewModel to use constructor injection for DiscountCalculator" />
     <MESSAGE value="Add UserRepository for enhanced dependency injection in DiscountCalculator and Program" />
     <MESSAGE value="Introduce DI container with IServiceCollection and refactor ShoppingCart dependencies for improved injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduce DI container with IServiceCollection and refactor ShoppingCart dependencies for improved injection" />
+    <MESSAGE value="Add unit tests for `ShoppingCartViewModel` using Moq and update DI configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add unit tests for `ShoppingCartViewModel` using Moq and update DI configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

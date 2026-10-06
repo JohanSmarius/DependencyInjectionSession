@@ -13,10 +13,10 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddHttpClient();
 
-builder.Services.AddScoped<ShoppingCardSeeder>();
+builder.Services.AddSingleton<ShoppingCardSeeder>();
 
 builder.Services.AddTransient<IUserRepository, UserRepository>();
-builder.Services.AddTransient<IShoppingCart, DI.ShoppingCart>();
+builder.Services.AddSingleton<IShoppingCart, DI.ShoppingCart>();
 builder.Services.AddTransient<IDiscountCalculator, DiscountCalculator>();
 
 

@@ -14,10 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DIExplanation/IDiscountCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DIExplanation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="add-depedency-injection" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,61 +65,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="8.549942702104961E-29" />
-      <entry key="MS500" value="2.4345341751856206E-6" />
-      <entry key="S2" value="0.04709436435144769" />
-      <entry key="S5" value="0.6341430674326495" />
-      <entry key="S10" value="1.8712360318118866" />
-      <entry key="S30" value="6.281646062334262" />
-      <entry key="S60" value="14.792709081051465" />
-      <entry key="M2" value="29.293416525138213" />
-      <entry key="M5" value="50.084799362921935" />
-      <entry key="M10" value="63.82291993821162" />
-      <entry key="M15" value="73.35590273765486" />
-      <entry key="M30" value="94.30268767060264" />
-      <entry key="H1" value="115.52611438042166" />
-      <entry key="H2" value="131.24944450324008" />
-      <entry key="H4" value="140.89885371641623" />
-      <entry key="D1" value="150.03946463633702" />
-      <entry key="W1" value="151.71708744472465" />
+      <entry key="MS100" value="5.692973394460676E-67" />
+      <entry key="MS500" value="5.674680233987513E-14" />
+      <entry key="S2" value="7.211489351585166E-4" />
+      <entry key="S5" value="0.10091788874834519" />
+      <entry key="S10" value="0.5745290096276615" />
+      <entry key="S30" value="4.590666358873986" />
+      <entry key="S60" value="13.887084148917857" />
+      <entry key="M2" value="31.56145186036416" />
+      <entry key="M5" value="62.38178554432007" />
+      <entry key="M10" value="83.92408046820182" />
+      <entry key="M15" value="96.80074924381617" />
+      <entry key="M30" value="121.7028535563404" />
+      <entry key="H1" value="145.57469679112683" />
+      <entry key="H2" value="163.03385992690127" />
+      <entry key="H4" value="173.7175458520157" />
+      <entry key="D1" value="183.830975839859" />
+      <entry key="W1" value="185.6869990686152" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000022708" />
-      <entry key="S2" value="1.0021829578660064" />
-      <entry key="S5" value="1.0862220096943016" />
-      <entry key="S10" value="1.2936358590142427" />
-      <entry key="S30" value="1.667054068301022" />
-      <entry key="S60" value="1.864144850954494" />
-      <entry key="M2" value="2.1239995948570054" />
-      <entry key="M5" value="2.5116166112379315" />
-      <entry key="M10" value="2.886325610859799" />
-      <entry key="M15" value="3.35293217359499" />
-      <entry key="M30" value="4.707923023768178" />
-      <entry key="H1" value="6.241564845095904" />
-      <entry key="H2" value="7.418543701523697" />
-      <entry key="H4" value="8.150825888135657" />
-      <entry key="D1" value="8.849582447302858" />
-      <entry key="W1" value="8.97828327653476" />
+      <entry key="MS500" value="1.0000000000003293" />
+      <entry key="S2" value="1.0007585077219638" />
+      <entry key="S5" value="1.0604848029790468" />
+      <entry key="S10" value="1.3026961984235763" />
+      <entry key="S30" value="2.187305170709191" />
+      <entry key="S60" value="3.089051821531999" />
+      <entry key="M2" value="4.157762802434277" />
+      <entry key="M5" value="5.446526984859234" />
+      <entry key="M10" value="6.255529278232545" />
+      <entry key="M15" value="6.87101737038416" />
+      <entry key="M30" value="8.384569389478028" />
+      <entry key="H1" value="10.033957889841018" />
+      <entry key="H2" value="11.297110710743013" />
+      <entry key="H4" value="12.084616558959144" />
+      <entry key="D1" value="12.837672814495338" />
+      <entry key="W1" value="12.97655886543878" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.6716154815936016E-4" />
-      <entry key="MS500" value="0.19291018798469636" />
-      <entry key="S2" value="0.6914654200338243" />
-      <entry key="S5" value="1.4843686132356102" />
-      <entry key="S10" value="2.9858155493558414" />
-      <entry key="S30" value="7.855540992080927" />
-      <entry key="S60" value="16.59729013201622" />
-      <entry key="M2" value="31.37700116742944" />
-      <entry key="M5" value="52.57358716377361" />
-      <entry key="M10" value="66.69469837097975" />
-      <entry key="M15" value="76.6965964123208" />
-      <entry key="M30" value="99.00079474347532" />
-      <entry key="H1" value="121.76066866767164" />
-      <entry key="H2" value="138.66367362025125" />
-      <entry key="H4" value="149.04727014012855" />
-      <entry key="D1" value="158.88860536102536" />
-      <entry key="W1" value="160.69530656115708" />
+      <entry key="MS100" value="0.009485897534336301" />
+      <entry key="MS500" value="0.3939269430247404" />
+      <entry key="S2" value="0.7931435873047291" />
+      <entry key="S5" value="1.0469877139113386" />
+      <entry key="S10" value="1.766671795362297" />
+      <entry key="S30" value="6.683518221371902" />
+      <entry key="S60" value="16.90077302852595" />
+      <entry key="M2" value="35.662360576573015" />
+      <entry key="M5" value="67.79388158689139" />
+      <entry key="M10" value="90.15778082417425" />
+      <entry key="M15" value="103.65436044019084" />
+      <entry key="M30" value="130.07485239521014" />
+      <entry key="H1" value="155.60017699777856" />
+      <entry key="H2" value="174.325880973153" />
+      <entry key="H4" value="185.79935089649905" />
+      <entry key="D1" value="196.66813743630368" />
+      <entry key="W1" value="198.66348377797271" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -134,7 +133,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.DIExplanation.executor": "Run",
+    ".NET Project.DIExplanation.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -145,7 +144,7 @@
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "add-depedency-injection",
+    "git-widget-placeholder": "ctor-injection",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -198,7 +197,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial version" />
     <MESSAGE value="Add AddOrderLine method to ShoppingCartViewModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AddOrderLine method to ShoppingCartViewModel" />
+    <MESSAGE value="Methode injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Methode injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

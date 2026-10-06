@@ -2,18 +2,24 @@ namespace DIExplanation;
 
 public class ShoppingCart
 {
+    private readonly IDiscountCalculator _discountCalculator;
     private List<OrderLine> orderLines = [];
+
+    public ShoppingCart(IDiscountCalculator discountCalculator)
+    {
+        _discountCalculator = discountCalculator;
+    }
 
     public void AddOrderLine(OrderLine orderLine)
     {
         orderLines.Add(orderLine);
     }
 
-    public decimal TotalPrice(IDiscountCalculator discountCalculator)
+    public decimal TotalPrice()
     {
         var total = orderLines.Sum(x => x.LinePrice);
         
-        var discountedTotal = discountCalculator.CalculateDiscount(total);
+        var discountedTotal = _discountCalculator.CalculateDiscount(total);
 
         return discountedTotal;
     }

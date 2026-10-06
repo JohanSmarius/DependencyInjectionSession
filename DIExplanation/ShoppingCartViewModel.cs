@@ -2,7 +2,14 @@ namespace DIExplanation;
 
 public class ShoppingCartViewModel
 {
-    private readonly ShoppingCart _shoppingCart = new();
+    private readonly IShoppingCart _shoppingCart;
+    
+    public ShoppingCartViewModel(IShoppingCart shoppingCart)
+    {
+        _shoppingCart = shoppingCart;
+    }
+    
+    public decimal TotalPrice => _shoppingCart.TotalPrice();
     
     public void AddOrderLine(OrderLine orderLine)
     {

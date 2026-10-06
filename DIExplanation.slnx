@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="BlazorApp/BlazorApp.Client/BlazorApp.Client.csproj" />
+  <Project Path="BlazorApp/BlazorApp/BlazorApp.csproj" />
   <Project Path="DIExplanation/DIExplanation.csproj" />
   <Project Path="DITests/DITests.csproj" />
+  <Project Path="SharedLibrary/SharedLibrary.csproj" />
+  <Project Path="WebApi\WebApi.csproj" />
 </Solution>

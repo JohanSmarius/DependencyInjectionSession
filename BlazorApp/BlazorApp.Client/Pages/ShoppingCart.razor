@@ -1,0 +1,65 @@
+@page "/shoppingcart"
+@rendermode InteractiveAuto
+@using DIExplanation
+@inject HttpClient Http
+
+<PageTitle>Shopping Cart</PageTitle>
+
+<h1>Shopping Cart</h1>
+
+<p>This component demonstrates showing shopping cart items from the API.</p>
+
+@if (orderLines == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (!orderLines.Any())
+{
+    <p>The shopping cart is empty.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in orderLines)
+            {
+                <tr>
+                    <td>@item.Product</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price.ToString("C")</td>
+                    <td>@item.LinePrice.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                <td><strong>@orderLines.Sum(x => x.LinePrice).ToString("C")</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+}
+
+@code {
+    private OrderLine[]? orderLines;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            orderLines = await Http.GetFromJsonAsync<OrderLine[]>("api/shoppingcart");
+        }
+        catch (Exception)
+        {
+            orderLines = Array.Empty<OrderLine>();
+        }
+    }
+}

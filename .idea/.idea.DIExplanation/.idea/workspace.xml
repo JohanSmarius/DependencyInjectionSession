@@ -14,14 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation.slnx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/DIExplanation.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/OrderLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JohanSmarius"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JohanSmarius/DependencyInjectionSession.git",
+    "accountId": "9da32cb4-4c8a-4fee-b147-dbdaa6b18cd6"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/DIExplanation/DiscountCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/Product.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,63 +55,64 @@
     <commands />
     <urls />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.143597003267443E-17" />
-      <entry key="MS500" value="5.523996400614745E-4" />
-      <entry key="S2" value="0.15330748062455476" />
-      <entry key="S5" value="0.4723082026788427" />
-      <entry key="S10" value="0.6886839021348127" />
-      <entry key="S30" value="1.9437232056894842" />
-      <entry key="S60" value="7.421867018800751" />
-      <entry key="M2" value="19.689580840975303" />
-      <entry key="M5" value="41.13561476274977" />
-      <entry key="M10" value="54.321518475704316" />
-      <entry key="M15" value="59.82797691654792" />
-      <entry key="M30" value="66.02178384097127" />
-      <entry key="H1" value="69.40622801360568" />
-      <entry key="H2" value="71.17606972353047" />
-      <entry key="H4" value="72.08116059256552" />
-      <entry key="D1" value="72.84589556822911" />
-      <entry key="W1" value="72.97796133149485" />
+      <entry key="MS100" value="1.6484693847725103" />
+      <entry key="MS500" value="3.5756966327500663" />
+      <entry key="S2" value="8.70685338692395" />
+      <entry key="S5" value="13.687808971321727" />
+      <entry key="S10" value="17.737238596731537" />
+      <entry key="S30" value="25.32491842381045" />
+      <entry key="S60" value="29.9643905324052" />
+      <entry key="M2" value="33.475849893521676" />
+      <entry key="M5" value="37.05243916547211" />
+      <entry key="M10" value="41.759184119781416" />
+      <entry key="M15" value="48.068962233985204" />
+      <entry key="M30" value="65.40006815070137" />
+      <entry key="H1" value="83.98553345636644" />
+      <entry key="H2" value="97.81788989443393" />
+      <entry key="H4" value="106.28697736568644" />
+      <entry key="D1" value="114.28720676364806" />
+      <entry key="W1" value="115.75290857543993" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000744174251757" />
-      <entry key="S2" value="1.0928792414561062" />
-      <entry key="S5" value="1.3865159888828895" />
-      <entry key="S10" value="1.6217041007931492" />
-      <entry key="S30" value="1.8543716966436734" />
-      <entry key="S60" value="1.9832317437033253" />
-      <entry key="M2" value="2.4480531191297565" />
-      <entry key="M5" value="3.706532044304921" />
-      <entry key="M10" value="4.6166887095316795" />
-      <entry key="M15" value="5.0150716172191405" />
-      <entry key="M30" value="5.473170878664127" />
-      <entry key="H1" value="5.7273799532338225" />
-      <entry key="H2" value="5.861307015540096" />
-      <entry key="H4" value="5.930047252225936" />
-      <entry key="D1" value="5.9882560989216245" />
-      <entry key="W1" value="5.99832020358621" />
+      <entry key="MS100" value="1.0477207625828781E-66" />
+      <entry key="MS500" value="6.368675338957097E-14" />
+      <entry key="S2" value="5.023567909636598E-4" />
+      <entry key="S5" value="0.04790765473759671" />
+      <entry key="S10" value="0.21887817327818848" />
+      <entry key="S30" value="0.6026532252893946" />
+      <entry key="S60" value="0.7763074296241039" />
+      <entry key="M2" value="0.8810837062334319" />
+      <entry key="M5" value="0.9590608988219974" />
+      <entry key="M10" value="1.195316361167121" />
+      <entry key="M15" value="1.6430803684979092" />
+      <entry key="M30" value="2.976834721980787" />
+      <entry key="H1" value="4.445183840688221" />
+      <entry key="H2" value="5.546598940578667" />
+      <entry key="H4" value="6.222966232076952" />
+      <entry key="D1" value="6.862890695480456" />
+      <entry key="W1" value="6.980218186946536" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.14885593723451E-4" />
-      <entry key="MS500" value="0.2351823903111313" />
-      <entry key="S2" value="0.8984016475774625" />
-      <entry key="S5" value="1.6577188235344105" />
-      <entry key="S10" value="2.1886293629495768" />
-      <entry key="S30" value="3.7408313109923035" />
-      <entry key="S60" value="9.347251228332532" />
-      <entry key="M2" value="22.072189488152862" />
-      <entry key="M5" value="44.78793427151879" />
-      <entry key="M10" value="58.90210478734079" />
-      <entry key="M15" value="64.81644060774327" />
-      <entry key="M30" value="71.48021256110047" />
-      <entry key="H1" value="75.12584200122241" />
-      <entry key="H2" value="77.033390254058" />
-      <entry key="H4" value="78.00918810488452" />
-      <entry key="D1" value="78.83381130968964" />
-      <entry key="W1" value="78.97623282042674" />
+      <entry key="MS100" value="1.5790856231790888" />
+      <entry key="MS500" value="3.5331448242723944" />
+      <entry key="S2" value="8.566726756562078" />
+      <entry key="S5" value="13.569186432838292" />
+      <entry key="S10" value="17.802770438146982" />
+      <entry key="S30" value="25.827789689102236" />
+      <entry key="S60" value="30.67749295000607" />
+      <entry key="M2" value="34.32073702149346" />
+      <entry key="M5" value="37.99554859848257" />
+      <entry key="M10" value="42.94460670544128" />
+      <entry key="M15" value="49.70303389655165" />
+      <entry key="M30" value="68.36877005908876" />
+      <entry key="H1" value="88.42463924921616" />
+      <entry key="H2" value="103.36069258570751" />
+      <entry key="H4" value="112.50781254948095" />
+      <entry key="D1" value="121.1497055147955" />
+      <entry key="W1" value="122.73306980670458" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -177,9 +184,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DIExplanation/DIExplanation.csproj" />
+  <Project Path="DITests/DITests.csproj" />
+</Solution>

@@ -1,6 +1,6 @@
 namespace DIExplanation;
 
-public class DiscountCalculator
+public class DiscountCalculator : IDiscountCalculator
 {
     public decimal CalculateDiscount(decimal totalPrice)
     {

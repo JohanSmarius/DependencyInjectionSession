@@ -9,11 +9,11 @@ public class ShoppingCart
         orderLines.Add(orderLine);
     }
 
-    public decimal TotalPrice()
+    public decimal TotalPrice(IDiscountCalculator discountCalculator)
     {
         var total = orderLines.Sum(x => x.LinePrice);
         
-        var discountedTotal = new DiscountCalculator().CalculateDiscount(total);
+        var discountedTotal = discountCalculator.CalculateDiscount(total);
 
         return discountedTotal;
     }

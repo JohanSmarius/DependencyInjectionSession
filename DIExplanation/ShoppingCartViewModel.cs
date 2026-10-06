@@ -4,7 +4,7 @@ public class ShoppingCartViewModel
 {
     private readonly IShoppingCart _shoppingCart;
     
-    public ShoppingCartViewModel(IDiscountCalculator discountCalculator, IShoppingCart shoppingCart)
+    public ShoppingCartViewModel(IShoppingCart shoppingCart)
     {
         _shoppingCart = shoppingCart;
     }

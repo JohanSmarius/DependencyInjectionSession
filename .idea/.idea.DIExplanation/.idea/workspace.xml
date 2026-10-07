@@ -26,16 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MauiApp1/ShoppingCardSeeder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MauiApp1/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/AppShell.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/AppShell.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MainPage.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MainPage.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/MauiApp1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MauiApp1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MauiApp1/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MauiApp1/MauiProgram.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,61 +87,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4042596905179434" />
-      <entry key="MS500" value="3.941985269458096" />
-      <entry key="S2" value="7.952931005374781" />
-      <entry key="S5" value="12.764648726843769" />
-      <entry key="S10" value="23.10828154214978" />
-      <entry key="S30" value="45.353623396903814" />
-      <entry key="S60" value="57.07039753679106" />
-      <entry key="M2" value="67.53656698969924" />
-      <entry key="M5" value="84.78273336487169" />
-      <entry key="M10" value="111.76661144121869" />
-      <entry key="M15" value="136.90678828512034" />
-      <entry key="M30" value="207.95030933894557" />
-      <entry key="H1" value="340.3932874518998" />
-      <entry key="H2" value="544.6617025909917" />
-      <entry key="H4" value="760.5976257261275" />
-      <entry key="D1" value="1067.3567508024198" />
-      <entry key="W1" value="1137.6555996819777" />
+      <entry key="MS100" value="1.0015897070843265" />
+      <entry key="MS500" value="1.5162957923554021" />
+      <entry key="S2" value="3.7333160448676743" />
+      <entry key="S5" value="6.180746974603394" />
+      <entry key="S10" value="7.738511581658971" />
+      <entry key="S30" value="9.148480779381224" />
+      <entry key="S60" value="9.565601977222025" />
+      <entry key="M2" value="10.412246855103636" />
+      <entry key="M5" value="23.02406076190092" />
+      <entry key="M10" value="53.9119522096198" />
+      <entry key="M15" value="83.46126697776474" />
+      <entry key="M30" value="162.34297384789622" />
+      <entry key="H1" value="301.35514106178675" />
+      <entry key="H2" value="513.9066202538941" />
+      <entry key="H4" value="741.5888614483355" />
+      <entry key="D1" value="1070.4617597031274" />
+      <entry key="W1" value="1146.6028113762497" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.147557589467988E-85" />
-      <entry key="MS500" value="1.3877787807814448E-17" />
-      <entry key="S2" value="6.103515625000233E-5" />
-      <entry key="S5" value="0.020617476449965706" />
-      <entry key="S10" value="0.14437583606800528" />
-      <entry key="S30" value="0.7817163583497923" />
-      <entry key="S60" value="1.9451128828165432" />
-      <entry key="M2" value="3.808990853029067" />
-      <entry key="M5" value="6.4818863871520085" />
-      <entry key="M10" value="8.157481530572365" />
-      <entry key="M15" value="9.289457958195607" />
-      <entry key="M30" value="12.60499519387303" />
-      <entry key="H1" value="19.71903286794857" />
-      <entry key="H2" value="32.37956116283151" />
-      <entry key="H4" value="46.79771219571079" />
-      <entry key="D1" value="68.14183337935172" />
-      <entry key="W1" value="73.12268953151816" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.5882521320628752E-126" />
+      <entry key="S5" value="4.7903942976108443E-51" />
+      <entry key="S10" value="6.959249220427854E-26" />
+      <entry key="S30" value="6.129219283476771E-9" />
+      <entry key="S60" value="1.722355474590301E-4" />
+      <entry key="M2" value="0.035842551631034704" />
+      <entry key="M5" value="1.0026214934768494" />
+      <entry key="M10" value="3.208292064765264" />
+      <entry key="M15" value="4.986573662133293" />
+      <entry key="M30" value="9.235249164331144" />
+      <entry key="H1" value="16.878683795880907" />
+      <entry key="H2" value="29.956939454075226" />
+      <entry key="H4" value="45.01299018173094" />
+      <entry key="D1" value="67.70166577797157" />
+      <entry key="W1" value="73.05502457170316" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3230243928909204" />
-      <entry key="MS500" value="3.900772561327742" />
-      <entry key="S2" value="7.932508887648723" />
-      <entry key="S5" value="12.76809000525281" />
-      <entry key="S10" value="23.22628671778123" />
-      <entry key="S30" value="46.09451053400715" />
-      <entry key="S60" value="58.95808347615771" />
-      <entry key="M2" value="71.28260666977418" />
-      <entry key="M5" value="91.21835223732539" />
-      <entry key="M10" value="119.89367911410952" />
-      <entry key="M15" value="146.1719285982477" />
-      <entry key="M30" value="220.53605736525034" />
-      <entry key="H1" value="360.0948286284428" />
-      <entry key="H2" value="577.0257794004496" />
-      <entry key="H4" value="807.3838385954754" />
-      <entry key="D1" value="1135.4957490053173" />
-      <entry key="W1" value="1210.7778536538601" />
+      <entry key="MS100" value="0.9741904856101641" />
+      <entry key="MS500" value="1.5070709066786043" />
+      <entry key="S2" value="3.7248199324583195" />
+      <entry key="S5" value="6.173455900991162" />
+      <entry key="S10" value="7.7335246348534215" />
+      <entry key="S30" value="9.146402260249632" />
+      <entry key="S60" value="9.564668298224767" />
+      <entry key="M2" value="10.446930415423996" />
+      <entry key="M5" value="24.019294925317897" />
+      <entry key="M10" value="57.1081666741455" />
+      <entry key="M15" value="88.43470946355728" />
+      <entry key="M30" value="171.5640824528989" />
+      <entry key="H1" value="318.21883325918424" />
+      <entry key="H2" value="543.8492241671835" />
+      <entry key="H4" value="786.590785992467" />
+      <entry key="D1" value="1138.1606078084494" />
+      <entry key="W1" value="1219.657400675615" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -448,7 +439,8 @@
     <MESSAGE value="Fix scoped `HttpClient` registration in BlazorApp `Program.cs` to use `NavigationManager.BaseUri` as `BaseAddress`. Adjust services for consistency." />
     <MESSAGE value="Add raw assets directory and Android project configuration files for Maui project setup" />
     <MESSAGE value="Add scene delegates and update Info.plist files for iOS and MacCatalyst platforms in Maui project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add scene delegates and update Info.plist files for iOS and MacCatalyst platforms in Maui project" />
+    <MESSAGE value="Hooked up the code for the demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hooked up the code for the demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

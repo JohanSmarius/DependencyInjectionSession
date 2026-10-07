@@ -1,6 +1,12 @@
 GET http://localhost:5287/api/ShoppingCart/
 Accept: application/json
 
+<> 2026-10-07T174751.200.json
+
+###
+GET http://localhost:5287/api/ShoppingCart/
+Accept: application/json
+
 <> 2026-10-06T142303.200.json
 
 ###

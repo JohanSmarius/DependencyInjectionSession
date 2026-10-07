@@ -1,3 +1,5 @@
+using Microsoft.Extensions.DependencyInjection;
+
 namespace DIExplanation;
 
 public class ShoppingCart : IShoppingCart
@@ -5,7 +7,7 @@ public class ShoppingCart : IShoppingCart
     private readonly IDiscountCalculator _discountCalculator;
     private List<OrderLine> orderLines = [];
 
-    public ShoppingCart(IDiscountCalculator discountCalculator)
+    public ShoppingCart([FromKeyedServices("holidayseason")] IDiscountCalculator discountCalculator)
     {
         _discountCalculator = discountCalculator;
     }

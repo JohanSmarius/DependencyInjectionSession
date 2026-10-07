@@ -11,7 +11,8 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IShoppingCart, ShoppingCart>();
-builder.Services.AddTransient<IDiscountCalculator, DiscountCalculator>();
+builder.Services.AddKeyedTransient<IDiscountCalculator, DiscountCalculator>("regular");
+builder.Services.AddKeyedTransient<IDiscountCalculator, SpecialDiscountCalculator>("holidayseason");
 
 var app = builder.Build();
 

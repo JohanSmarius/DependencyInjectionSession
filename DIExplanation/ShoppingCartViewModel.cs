@@ -10,4 +10,6 @@ public class ShoppingCartViewModel
         
         _shoppingCart.AddOrderLine(orderLine);
     }
+    
+    public decimal TotalPrice => _shoppingCart.TotalPrice();
 }

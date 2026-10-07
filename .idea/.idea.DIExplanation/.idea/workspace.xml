@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WebApi/SpecialDiscountCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/ShoppingCart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -460,7 +455,8 @@
     <MESSAGE value="Add scene delegates and update Info.plist files for iOS and MacCatalyst platforms in Maui project" />
     <MESSAGE value="Hooked up the code for the demo" />
     <MESSAGE value="Update `.idea/workspace.xml` to clean up outdated references and adjust decayed values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update `.idea/workspace.xml` to clean up outdated references and adjust decayed values" />
+    <MESSAGE value="Add seasonal discount functionality to `SharedLibrary` and `WebApi`.&#10;&#10;- Implement `SpecialDiscountCalculator` in `WebApi` for a 50% holiday season discount.&#10;- Update `Program.cs` in `WebApi` to register `DiscountCalculator` implementations with Keyed DI.&#10;- Modify `ShoppingCart` to use Keyed DI for `IDiscountCalculator`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add seasonal discount functionality to `SharedLibrary` and `WebApi`.&#10;&#10;- Implement `SpecialDiscountCalculator` in `WebApi` for a 50% holiday season discount.&#10;- Update `Program.cs` in `WebApi` to register `DiscountCalculator` implementations with Keyed DI.&#10;- Modify `ShoppingCart` to use Keyed DI for `IDiscountCalculator`." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

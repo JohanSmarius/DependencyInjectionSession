@@ -23,8 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5211711a-59cf-488a-a0c1-c6590ae7e628" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/StateService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DIExplanation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Pages/Counter.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Pages/Counter.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Pages/ShoppingCart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Pages/ShoppingCart.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/DIExplanation.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="2" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -58,9 +64,15 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.nuget/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/784cfd1895d8ce87bcc6dccb27c44274f1931646ce5ed21391b7bd5acb776f/ComponentBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/819456c51dfa1765df1371c68b896d46595b389ff2ea569e458ad612bb2020/ServiceProviderEngineScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bc69852c736be69a33ab75e0444246ffeb2f8cd671d12b36b764ba5fa18f61ba/Monitor.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c79a534484f3c079e696a1b8489d234b7066e25afd8a9b4bd1be4257d3167/ComponentBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e769c44533aabde1f69a82956c6436e6daa615f4ae54fbdab4ac1fbfa1a39d1/CallSiteValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e97eeac1454167a6e970ab48ab55f3e712d20bbe138b239e8679c6d456248a/ServiceProviderServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9d2f95d72fa884d8b6ddefc717c56da3657fbb2d5fb683656c3589eb6587/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BlazorApp/BlazorApp.Client/StateService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DIExplanation/ShoppingCartViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApi/Controllers/ShoppingCartController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApi/Mappers/OrderLineMapper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,61 +87,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
+      <entry key="MS100" value="6.36648448114287E-10" />
+      <entry key="MS500" value="0.03763401628252411" />
+      <entry key="S2" value="1.2344288605218565" />
+      <entry key="S5" value="2.4974671932703236" />
+      <entry key="S10" value="3.160283894981788" />
+      <entry key="S30" value="3.7100260454115817" />
+      <entry key="S60" value="4.1513968850058225" />
+      <entry key="M2" value="7.01071285222923" />
+      <entry key="M5" value="22.696898394598872" />
+      <entry key="M10" value="41.00546383201299" />
+      <entry key="M15" value="50.85454930408242" />
+      <entry key="M30" value="64.43227964756119" />
+      <entry key="H1" value="92.50806255836646" />
+      <entry key="H2" value="203.59135146611527" />
+      <entry key="H4" value="416.5299422396491" />
+      <entry key="D1" value="873.8417993504444" />
+      <entry key="W1" value="1002.5214395109867" />
+    </decayedCancelled>
+    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.000000000000005" />
-      <entry key="S30" value="1.0000171598920258" />
-      <entry key="S60" value="1.004142838162697" />
-      <entry key="M2" value="1.0699146885755955" />
-      <entry key="M5" value="3.738140407791788" />
-      <entry key="M10" value="23.78318515374036" />
-      <entry key="M15" value="51.43665693405719" />
-      <entry key="M30" value="128.7218413195684" />
-      <entry key="H1" value="260.3014506270132" />
-      <entry key="H2" value="446.1413927077256" />
-      <entry key="H4" value="626.3335472128146" />
-      <entry key="D1" value="863.768227245965" />
-      <entry key="W1" value="915.916259224901" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="8.31332018200331E-8" />
-      <entry key="MS500" value="0.03937357198052551" />
-      <entry key="S2" value="0.6335084684887304" />
-      <entry key="S5" value="1.3982399391731815" />
-      <entry key="S10" value="1.9760212391931136" />
-      <entry key="S30" value="2.5863556911355077" />
-      <entry key="S60" value="2.791001505941059" />
-      <entry key="M2" value="3.021784972005095" />
-      <entry key="M5" value="3.7595925559531094" />
-      <entry key="M10" value="5.173875498562212" />
-      <entry key="M15" value="6.567937716697322" />
-      <entry key="M30" value="10.2042159016036" />
-      <entry key="H1" value="17.62681911301318" />
-      <entry key="H2" value="29.818138611735776" />
-      <entry key="H4" value="42.4044376807399" />
-      <entry key="D1" value="59.522908431647" />
-      <entry key="W1" value="63.3345402212966" />
+      <entry key="S5" value="1.000000000000007" />
+      <entry key="S10" value="1.0000000846449946" />
+      <entry key="S30" value="1.0043938181757457" />
+      <entry key="S60" value="1.0683754238848902" />
+      <entry key="M2" value="1.3320804720924757" />
+      <entry key="M5" value="2.354645111662999" />
+      <entry key="M10" value="3.5078788896005917" />
+      <entry key="M15" value="4.132561801564988" />
+      <entry key="M30" value="5.037245994723089" />
+      <entry key="H1" value="7.186465822090334" />
+      <entry key="H2" value="15.330611033339704" />
+      <entry key="H4" value="30.733615124577646" />
+      <entry key="D1" value="63.9148181639433" />
+      <entry key="W1" value="73.28817324852939" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.0688803089120003E-4" />
-      <entry key="MS500" value="0.20016974142481225" />
-      <entry key="S2" value="1.014794219843884" />
-      <entry key="S5" value="1.9106492461938882" />
-      <entry key="S10" value="2.592515888807213" />
-      <entry key="S30" value="3.3927161491507056" />
-      <entry key="S60" value="3.6851750323598718" />
-      <entry key="M2" value="4.026892699346923" />
-      <entry key="M5" value="7.458317378770956" />
-      <entry key="M10" value="28.926120410868855" />
-      <entry key="M15" value="57.97680598844239" />
-      <entry key="M30" value="138.90309180876704" />
-      <entry key="H1" value="277.90848565910716" />
-      <entry key="H2" value="475.94324944880054" />
-      <entry key="H4" value="668.726607974161" />
-      <entry key="D1" value="923.2885100922916" />
-      <entry key="W1" value="979.2504011861279" />
+      <entry key="MS100" value="1.7167634334482155E-5" />
+      <entry key="MS500" value="0.14860090173761575" />
+      <entry key="S2" value="1.8083690120975748" />
+      <entry key="S5" value="3.2973265816946027" />
+      <entry key="S10" value="4.054397693120768" />
+      <entry key="S30" value="4.677449166700126" />
+      <entry key="S60" value="5.199048407779782" />
+      <entry key="M2" value="8.326053886961928" />
+      <entry key="M5" value="25.02685029797011" />
+      <entry key="M10" value="44.488573089930874" />
+      <entry key="M15" value="54.96586405676582" />
+      <entry key="M30" value="69.45559350820729" />
+      <entry key="H1" value="99.68500810707923" />
+      <entry key="H2" value="218.91300214701369" />
+      <entry key="H4" value="447.25515267835846" />
+      <entry key="D1" value="937.7538096349197" />
+      <entry key="W1" value="1075.8091548427496" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -409,45 +421,18 @@
           <option name="timeStamp" value="3" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1695" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1765" />
-            </endOffsets>
+          <url>file://$PROJECT_DIR$/BlazorApp/BlazorApp.Client/Pages/Counter.razor</url>
+          <line>18</line>
+          <properties isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
           </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlazorApp/BlazorApp/ShoppingCardSeeder.cs</url>
-          <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/BlazorApp/BlazorApp/ShoppingCardSeeder.cs" containingFunctionPresentation="Method 'Seed'">
-            <startOffsets>
-              <option value="279" />
-            </startOffsets>
-            <endOffsets>
-              <option value="398" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs</url>
-          <line>53</line>
-          <properties documentPath="$PROJECT_DIR$/BlazorApp/BlazorApp/Program.cs" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="1607" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1636" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

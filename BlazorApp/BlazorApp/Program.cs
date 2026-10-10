@@ -1,4 +1,5 @@
 using BlazorApp;
+using BlazorApp.Client;
 using BlazorApp.Client.Pages;
 using BlazorApp.Components;
 using DI = DIExplanation;
@@ -23,6 +24,11 @@ builder.Services.AddScoped<ShoppingCardSeeder>();
 builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddSingleton<IShoppingCart, DI.ShoppingCart>();
 builder.Services.AddTransient<IDiscountCalculator, DiscountCalculator>();
+
+// The StateService is a singleton service that holds the current count value.\
+// Is neeeded on the client side to share the current count value between components.
+// But also needs to be registered here because of server side prerendering.
+builder.Services.AddScoped<StateService>();
 
 var app = builder.Build();
 
